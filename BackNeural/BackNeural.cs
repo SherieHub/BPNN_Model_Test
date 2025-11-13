@@ -50,6 +50,8 @@ namespace Backprop
 			}
 
 		}
+
+		//heloo
 		public double getOuputData(int pos)
 		{
 			return oneuron[pos].getOActivation();
