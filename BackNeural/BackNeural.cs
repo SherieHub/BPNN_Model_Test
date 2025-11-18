@@ -136,7 +136,6 @@ namespace Backprop
 				oneuron[x].changeBias(LRPOUT,errorDerivative);
 			for (int x=0;x<hneuron.Length;x++)//change in 2 neuron bias
 				hneuron[x].changeBias(LRPIN);
-
 		}
 		public void run()
 		{

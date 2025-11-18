@@ -13,12 +13,12 @@ namespace BackNeural
 
         private void createBPNN_btn_Click(object sender, EventArgs e)
         {
-            nn = new NeuralNet(4, 2, 1);
+            nn = new NeuralNet(4, 1, 1);
         }
-
+        
         private void trainNeuralNet_btn_Click(object sender, EventArgs e)
         {
-            for (int x = 0; x < 3000; x++)
+            for (int x = 0; x < 2500; x++)
             {
                 //1. Learning set inputs = {0, 0, 0, 0}
                 nn.setInputs(0, 0.0);

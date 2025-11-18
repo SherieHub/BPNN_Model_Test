@@ -79,6 +79,7 @@
             // 
             // textBox3
             // 
+            textBox3.Font = new Font("Segoe UI", 13.8F);
             textBox3.Location = new Point(140, 239);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
@@ -87,6 +88,7 @@
             // 
             // textBox1
             // 
+            textBox1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.Location = new Point(140, 72);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -95,6 +97,7 @@
             // 
             // textBox2
             // 
+            textBox2.Font = new Font("Segoe UI", 13.8F);
             textBox2.Location = new Point(140, 155);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
@@ -103,6 +106,7 @@
             // 
             // textBox4
             // 
+            textBox4.Font = new Font("Segoe UI", 13.8F);
             textBox4.Location = new Point(140, 331);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
@@ -111,10 +115,11 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(676, 201);
+            textBox5.Font = new Font("Segoe UI", 13.8F);
+            textBox5.Location = new Point(571, 201);
             textBox5.Multiline = true;
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(228, 52);
+            textBox5.Size = new Size(333, 52);
             textBox5.TabIndex = 7;
             // 
             // Form1
